@@ -49,7 +49,6 @@ export default function Setting() {
       password: undefined,
       newPassword: undefined,
       role: user?.role || undefined,
-      // isTwoFactorEnabled: user?.isTwoFactorEnabled || undefined,
     },
   });
   const onSubmit = (value: z.infer<typeof SettingSchema>) => {
